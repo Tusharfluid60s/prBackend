@@ -23,7 +23,7 @@ app.use(
 );
 
 // Using routes
-app.use("/api/v1/users", userRouter);
+app.use( userRouter);
 
 app.get("/", (req, res) => {
   res.send("Nice working");
